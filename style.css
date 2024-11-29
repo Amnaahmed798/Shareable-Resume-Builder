@@ -5,7 +5,7 @@
 }
 
 .main {
-    background-color: #f0eaea;
+    background-color:white;
     display: grid;
     place-items: center;
     height: auto;
@@ -60,7 +60,7 @@ fieldset.profile-section{
     border-radius: 8px;         
     padding: 20px;                 
     margin-bottom: 20px;           
-    background-color:rgb(245, 242, 243); 
+    background-color:rgb(255, 248, 250); 
     width: 10px;
   
 
@@ -262,14 +262,15 @@ body{
         width: 90%;
     }
     fieldset.profile-section{
-        width: 330px;}
+        width: 380px;}
 }
 
 /* Medium screens (tablets) */
 @media (min-width: 601px) and (max-width: 1024px) {
     .main {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+     
     }
     .heading {
         font-size: 32px;
@@ -277,6 +278,7 @@ body{
     .form {
         flex-direction: column;
         padding: 30px;
+        width: 200px;
     }
    
     .btn {
@@ -284,14 +286,22 @@ body{
     }
     .profile-container {
         gap: 50px;
+        
     }
+    label,
+    input {
+        width: 100%;
+    }
+    fieldset.profile-section{
+        width: 500px;}
+
 }
 
 /* Large screens (desktops) */
 @media (min-width: 1025px) {
     .main {
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .heading {
         font-size: 35px;
@@ -300,6 +310,7 @@ body{
         width: 300px;
         height: 320px;
     }
+   
 }
 
     @media (max-width: 600px) {
