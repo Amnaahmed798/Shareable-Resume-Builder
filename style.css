@@ -1,414 +1,424 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
-    background-color:white;
-    display: grid;
-    place-items: center;
-    height: auto;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  height: auto;
 
-    padding-left: 200px;
-    padding-right: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .heading {
-    font-size: 35px;
-    color: #242022;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 35px;
+  color: #242022;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .form {
- 
-    display: flex;
-    border-radius: 5px;
-    background-color: rgba(24, 22, 22, 0.9);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
-     margin-bottom: 50px;
-    border-radius: 100px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgba(24, 22, 22, 0.9);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  margin-bottom: 50px;
+  border-radius: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.img{
-    border-radius:50% ;
-    border: 5px solid rgb(161, 157, 157);
-    align-items: center;
-    width: 300px;
-    height: 320px;
-    object-fit: cover;
-    margin-bottom: 100px;
-    background-color: #faf5f5;
+.img {
+  border-radius: 50%;
+  border: 5px solid rgb(63, 62, 62);
+  align-items: center;
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  margin-bottom: 100px;
+  background-color: #faf5f5;
 }
-.profile-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
-    gap: 90px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-fieldset.profile-section{
-    
-    border: 6px solid #5e0142;  
-    border-radius: 8px;         
-    padding: 20px;                 
-    margin-bottom: 20px;           
-    background-color:rgb(255, 248, 250); 
-    width: 10px;
-  
-
+fieldset.profile-section {
+  border: 6px solid rgb(35, 76, 110);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 248, 250);
+  width: 10px;
 }
-fieldset{
-    border: 6px solid #5e0142;       
-    border-radius: 8px;            
-    padding: 20px;             
-    margin-bottom: 20px;         
-    background-color:rgb(255, 248, 250); 
-
+fieldset {
+  border: 6px solid rgb(35, 76, 110);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 248, 250);
 }
 
 .form div {
-    line-height: normal;
+  line-height: normal;
 }
 
-label, input {
-    width:500px ;
-    display: block;
-    height: 30px;
+label,
+input {
+  width: 500px;
+  display: block;
+  height: 30px;
 }
-legend{
-    font-size: 2.5rem;
+legend {
+  font-size: 2.5rem;
 }
 
 label {
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #0a0d11;
-    width: 600px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0a0d11;
+  width: 600px;
 }
 
 input {
-    padding: 10px;
-    border: 2px solid black;
+  padding: 10px;
+  border: 2px solid black;
 }
 
 textarea {
-    border: 2px solid #0a0d11;
-    width: 70%;
- 
+  border: 2px solid #0a0d11;
+  width: 70%;
 }
 
 .btn {
-    width: 280px;
-    height: 80px;
-    background-color:rgb(110, 35, 81);
-    color: rgb(252, 248, 248);
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-size: 25px;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    align-content: center;
-    text-align: center;;
+  width: 280px;
+  height: 80px;
+  background-color: rgb(35, 76, 110);
+  color: rgb(252, 248, 248);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  align-content: center;
+  text-align: center;
 }
 
 .btn:hover {
-    background-color: #f0f5fa;
-    color: #0a0d11;
-    border: 2px solid #0a0d11;;
-    
+  background-color: #f0f5fa;
+  color: #0a0d11;
+  border: 2px solid #0a0d11;
 }
 
+#resumeContent {
+  width: 65%;
 
-#resumeContent{
-    width: 65%;
-   
-    border-radius: 5px;
-    background-color: rgba(255, 249, 254, 0.9);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
-    margin: 0 auto; 
-    border-radius: 100px; 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  border-radius: 5px;
+  background-color: rgba(255, 249, 254, 0.9);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  margin: 0 auto;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    font-style:'Poppins',sans-serif;
-   
+body {
+  font-style: "Poppins", sans-serif;
 }
-.container1{
-    display: grid;
-    grid-template-columns:1fr 4fr;
-    grid-template-rows: 1850px px;
-   
-   
-    margin-top: 200px;
-    height: auto;
-    width: vh;
-    padding-left: 200px;
-    padding-right: 200px;
-    justify-content: center;
-   
-    
-}
-.box1{
-    background-color:rgb(110, 35, 81);
-    color:rgb(248, 245, 245);
-    line-height: normal; 
-    font-size: 23px;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1850px px;
 
+  margin-top: 200px;
+  height: auto;
+  width: vh;
+  padding-left: 200px;
+  padding-right: 200px;
+  justify-content: center;
 }
-.box1 img{
-    border-radius: 50%;
-    border:9px solid;
-    object-fit: cover;
-    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
-    align-items: center;
-    background-color: #f0f5fa;
+.box1 {
+  background-color: rgb(35, 76, 110);
+  color: rgb(255, 255, 255);
+  line-height: normal;
+  font-size: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
-.main1 h1{
- font-weight: 900;
- font-size: 60px;
- animation: glitter-text 2s infinite;
-
+.box1 img {
+  border-radius: 50%;
+  border: 9px solid;
+  object-fit: cover;
+  box-shadow: 0 0 100px rgba(252, 249, 249, 0.5);
+  align-items: center;
+  background-color: #f0f5fa;
 }
-.box2{
-    background-color:rgb(225, 225, 228);
-    color:rgb(148, 66, 107); 
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size:23px;
-    line-height: normal;
-    padding-top: 100px;
-    gap: 39px;
-    
+.main1 h1 {
+  font-weight: 900;
+  font-size: 60px;
+  animation: glitter-text 2s infinite;
 }
-.intro h1{
-    font-weight:700;
-    font-size:97px;
-    ;
-  
+.box2 {
+  background-color: rgb(247, 247, 250);
+  color: rgb(20, 18, 19);
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 23px;
+  line-height: normal;
+  padding-top: 100px;
+  gap: 39px;
 }
-.intro p{
-    font-size: 30px;
+.intro h1 {
+  font-weight: 700;
+  font-size: 97px;
 }
-.button{
-    font-size: 20px;
-    font-weight: 600;
-    background-color:rgb(141, 54, 108);
-    color: white;
-    border: 4px solid rgb(10, 10, 10);
-    border-radius: 8%;
-    height: 45px;
-    padding: 10px 15px;
-    animation: glitter-text 2s infinite;
+.intro p {
+  font-size: 30px;
 }
-.button:hover{
-    background-color: white;
-    color: rgb(121, 55, 91);
+.button {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(54, 63, 141);
+  color: white;
+  border: 4px solid rgb(10, 10, 10);
+  border-radius: 8%;
+  height: 45px;
+  padding: 10px 15px;
+  animation: glitter-text 2s infinite;
+}
+.button:hover {
+  background-color: white;
+  color: rgb(35, 76, 110);
 }
 @media (max-width: 600px) {
-    .main {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .heading {
-        font-size: 28px;
-    }
-    .form {
-        flex-direction: column;
-        padding: 20px;
-    }
-    
-    label,
-    input {
-        width: 100%;
-    }
-    .btn {
-        width: 100%;
-        font-size: 20px;
-    }
-    #resumeContent {
-        width: 90%;
-    }
-    fieldset.profile-section{
-        width: 380px;}
+  .main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .form {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  label,
+  input {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+    font-size: 20px;
+  }
+  #resumeContent {
+    width: 90%;
+  }
+  fieldset.profile-section {
+    width: 380px;
+  }
 }
 
 /* Medium screens (tablets) */
 @media (min-width: 601px) and (max-width: 1024px) {
-    .main {
-        padding-left: 0px;
-        padding-right: 0px;
-     
-    }
-    .heading {
-        font-size: 32px;
-    }
-    .form {
-        flex-direction: column;
-        padding: 30px;
-        width: 200px;
-    }
-   
-    .btn {
-        width: 250px;
-    }
-    .profile-container {
-        gap: 50px;
-        
-    }
-    label,
-    input {
-        width: 100%;
-    }
-    fieldset.profile-section{
-        width: 500px;}
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .form {
+    flex-direction: column;
+    padding: 30px;
+    width: 200px;
+  }
 
+  .btn {
+    width: 250px;
+  }
+  .profile-container {
+    gap: 50px;
+  }
+  label,
+  input {
+    width: 100%;
+  }
+  fieldset.profile-section {
+    width: 500px;
+  }
 }
 
 /* Large screens (desktops) */
 @media (min-width: 1025px) {
-    .main {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .heading {
-        font-size: 35px;
-    }
-    .img {
-        width: 300px;
-        height: 320px;
-    }
-   
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .img {
+    width: 300px;
+    height: 320px;
+  }
 }
 
-    @media (max-width: 600px) {
-        .container1 {
-            display: flex;
-            align-items: stretch;
-            margin-top: 30px;
-          
-        }
-    
-        .box1, .box2 {
-            text-align: center;
-            flex: 1; 
-            display: flex;
-            flex-direction: column; 
-        }
-    
-    
+@media (max-width: 600px) {
+  .container1 {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+    height: max-content;
+    width: 680px;
+    padding-left: 120px;
+    margin-left: 10px;
+  }
 
-    .box1 img {
-        width: 150px; /* Adjust image size for smaller screens */
-        height: 150px;
-        border-width: 5px;
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    }
+  .box1,
+  .box2 {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  .box2 {
+    width: 700px;
+    padding-right: 220px;
+  }
 
-    .main1 h1 {
-        font-size: 40px; /* Smaller font size for heading */
-    }
+  .box1 img {
+    width: 150px; /* Adjust image size for smaller screens */
+    height: 150px;
+    border-width: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
 
-    .box2 h1 {
-        font-size: 36px; /* Smaller heading size */
-    }
+  .main1 h1 {
+    font-size: 30px; /* Smaller font size for heading */
+  }
 
-    .box2 p {
-        font-size: 16px; /* Adjust paragraph font size */
-    }
+  .box2 h1 {
+    font-size: 30px; /* Smaller heading size */
+  }
 
-    .button {
-        font-size: 16px;
-        height: 40px;
-        padding: 5px 10px;
-        margin-top: 10px;
-    }
-    .btn-container {
-        display: flex; /* Makes the buttons a flex container */
-        justify-content: space-between; 
-        gap: 10px; /* Optional: spacing between buttons */
-        margin-top: auto; /* Adds spacing between buttons and other content */
-    }
-    .btn{
-        width: 150px;
-        height: 50px;
-        flex: 1;
-        background-color:rgb(110, 35, 81);
-        color: rgb(252, 248, 248);
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        font-size: 15px;
-        margin-top: 60px;
-        margin-bottom: 10px;
-        align-content: center;
-        text-align: center;
-        font: 1em popins;
-        align-items: center;
-        justify-content: center;
-   }
+  .box2 p {
+    font-size: 10px; /* Adjust paragraph font size */
+  }
 
-        #output {
-        margin: auto;
-        }
-    }
-        @media (min-width: 601px) and (max-width: 1024px) {
-            .btn-container{
-                display: flex; /* Makes the buttons a flex container */
-                justify-content: space-between; 
-                gap: 10px; /* Optional: spacing between buttons */
-                align-items: center;
-                justify-content: center;
-                font: 1em popins;
-            }
-            .btn{
-                font: 1.3em popins
-            }
-        
-    }
-    @media (min-width: 1025px) {
-        .btn-container{
-            display: flex; /* Makes the buttons a flex container */
-            justify-content: space-between; 
-            gap: 10px; /* Optional: spacing between buttons */
-            align-items: center;
-            justify-content: center;
-            font: 1em popins;
-        }
-        .btn{
-            font: 1.5em popins
-        }
-    }
+  .button {
+    font-size: 10px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  .btn-container {
+    display: flex; /* Makes the buttons a flex container */
+    justify-content: space-between;
+    gap: 10px; /* Optional: spacing between buttons */
+    margin-top: auto; /* Adds spacing between buttons and other content */
+  }
+  .btn-container {
+    display: flex; /* Makes the buttons a flex container */
+    justify-content: space-between;
+    gap: 10px; /* Optional: spacing between buttons */
+    align-items: center;
+    justify-content: center;
+    font: 1em popins;
+  }
+  .btn {
+    font: 1.5em popins;
+  }
+
+  #output {
+    margin: auto;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container1 {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .box1,
+  .box2 {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+
+  .box1 img {
+    width: 150px; /* Adjust image size for smaller screens */
+    height: 150px;
+    border-width: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  .main1 h1 {
+    font-size: 30px; /* Smaller font size for heading */
+  }
+
+  .box2 h1 {
+    font-size: 50px; /* Smaller heading size */
+  }
+
+  .box2 p {
+    font-size: 10px; /* Adjust paragraph font size */
+  }
+
+  .box2 {
+    padding-right: 220px;
+  }
+  .btn-container {
+    display: flex; /* Makes the buttons a flex container */
+    justify-content: space-between;
+    gap: 10px; /* Optional: spacing between buttons */
+    align-items: center;
+    justify-content: center;
+    font: 1em popins;
+  }
+  .btn {
+    font: 1.5em popins;
+  }
+}
+@media (min-width: 1025px) {
+  .container1 {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+    height: max-content;
+    width: 100%;
+    padding-left: 120px;
+  }
+
+  .btn-container {
+    display: flex; /* Makes the buttons a flex container */
+    justify-content: space-between;
+    gap: 10px; /* Optional: spacing between buttons */
+    align-items: center;
+    justify-content: center;
+    font: 1em popins;
+  }
+  .btn {
+    font: 1.5em popins;
+  }
+}
